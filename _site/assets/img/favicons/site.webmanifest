@@ -1,9 +1,9 @@
 
 
 {
-  "name": "Chirpy",
-  "short_name": "Chirpy",
-  "description": "A minimal, responsive and feature-rich Jekyll theme for technical writing.",
+  "name": "바르고의 다락방",
+  "short_name": "바르고의 다락방",
+  "description": "바르고의 다락방",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",
