@@ -3,14 +3,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
   <title>바르고의 다락방</title>
-  <subtitle>바르고의 다락방</subtitle>
-  <updated>2024-03-10T12:28:22+09:00</updated>
+  <subtitle></subtitle>
+  <updated>2024-06-11T15:53:04+09:00</updated>
   <author>
     <name>박창준</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en"
+  <link rel="alternate" type="text/html" hreflang="ko-KR"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
   <rights> © 2024 박창준 </rights>
@@ -22,9 +22,9 @@
   <entry>
     <title>깃허브 블로그 시작</title>
     <link href="http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="깃허브 블로그 시작" />
-    <published>2024-03-10T09:00:00+09:00</published>
+    <published>2024-06-11T09:00:00+09:00</published>
   
-    <updated>2024-03-10T09:00:00+09:00</updated>
+    <updated>2024-06-11T09:00:00+09:00</updated>
   
     <id>http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/</id>
     <content src="http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/" />

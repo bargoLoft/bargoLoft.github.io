@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko-KR
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
@@ -16,10 +16,9 @@ timezone: Asia/Seoul
 
 title: 바르고의 다락방 # the main title
 
-tagline: 바르고의 다락방 # it will display as the sub-title
+tagline: 끄적끄적 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  바르고의 다락방
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -28,8 +27,8 @@ url: "https://bargoloft.github.io"
 github:
   username: bargoloft # change to your github username
 
-twitter:
-  username:  # change to your twitter username
+#twitter:
+#  username:  # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,8 +37,8 @@ social:
   email: qmak01@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+     # change to your twitter homepage
+    - https://github.com/bargoloft # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -85,10 +84,10 @@ theme_mode: light # [light | dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+#img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/profile_image.jpg"
+avatar: "/assets/img/profile.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

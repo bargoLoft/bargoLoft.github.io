@@ -4,5 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> 바르고의 다락방에 오신 걸 환영합니다.
 {: .prompt-tip }
+
+\- 자기소개 작성 예정 (PR!)-
