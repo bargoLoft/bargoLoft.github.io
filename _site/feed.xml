@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>바르고의 다락방</title>
   <subtitle></subtitle>
-  <updated>2024-06-11T15:53:04+09:00</updated>
+  <updated>2024-06-16T18:31:27+09:00</updated>
   <author>
     <name>박창준</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,61 @@
 
   
   <entry>
+    <title>코테 기본기 복습</title>
+    <link href="http://localhost:4000/posts/%EC%BD%94%ED%85%8C-%EA%B8%B0%EB%B3%B8%EA%B8%B0-%EB%B3%B5%EC%8A%B5/" rel="alternate" type="text/html" title="코테 기본기 복습" />
+    <published>2024-06-16T17:24:00+09:00</published>
+  
+    <updated>2024-06-16T17:24:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%EC%BD%94%ED%85%8C-%EA%B8%B0%EB%B3%B8%EA%B8%B0-%EB%B3%B5%EC%8A%B5/</id>
+    <content src="http://localhost:4000/posts/%EC%BD%94%ED%85%8C-%EA%B8%B0%EB%B3%B8%EA%B8%B0-%EB%B3%B5%EC%8A%B5/" />
+    <author>
+      <name>박창준</name>
+    </author>
+
+  
+    
+    <category term="코딩테스트" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Java 입출력
+
+
+
+import java.io.*;
+import java.util.*;
+
+public class StandardIO {
+    public static void main(String[] args) throws IOException {
+    
+        // BufferedReader 선언
+		    BufferedReader br = new BufferedReader(new InputStringReader(System.in));
+		    StirngTokenizer st = new StringTokenizer(br.readLine());
+		    StringBuilder sb = new StringBuilder();
+		    
+		    // 한 줄 통째로 가져오기
+		  ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>깃허브 블로그 시작</title>
     <link href="http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="깃허브 블로그 시작" />
-    <published>2024-06-11T09:00:00+09:00</published>
+    <published>2024-03-10T00:00:00+09:00</published>
   
-    <updated>2024-06-11T09:00:00+09:00</updated>
+    <updated>2024-03-10T00:00:00+09:00</updated>
   
     <id>http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/</id>
     <content src="http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/" />
