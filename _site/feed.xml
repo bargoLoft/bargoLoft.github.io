@@ -4,19 +4,83 @@
   <id>http://localhost:4000/</id>
   <title>바르고의 다락방</title>
   <subtitle></subtitle>
-  <updated>2024-06-16T18:31:27+09:00</updated>
+  <updated>2024-06-19T23:21:14+09:00</updated>
   <author>
-    <name>박창준</name>
+    <name>Changjun Park</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ko-KR"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2024 박창준 </rights>
+  <rights> © 2024 Changjun Park </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>시간복잡도</title>
+    <link href="http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/" rel="alternate" type="text/html" title="시간복잡도" />
+    <published>2024-06-19T00:00:00+09:00</published>
+  
+    <updated>2024-06-19T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/</id>
+    <content src="http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/" />
+    <author>
+      <name>Changjun Park</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+시간복잡도, time complexity
+
+알고리즘의 성능을 나타내는 지표로, 입력 크기에 대한 연산 횟수의 상한을 의미
+
+알고리즘 수행 시간을 측정하는 방법
+
+
+  
+    절대 시간
+
+    말 그대로 시간을 측정.
+
+    그러나 실행 환경에 따라 달라질 수 있기에 실제로 활용 X
+  
+  
+    시간 복잡도
+
+    알고리즘이 시작한 순간부터 결괏값이 나올 때까지의 연산 횟수
+
+    최선, 평균, 최악의 경우로 나눔 (Best, Normal, Worst)
+
+    코테는 모든 경우의 수에서 테케를 성공해야하기에 최악의 경우를 가정
+  
+
+
+Big-O 표기법
+
+점근적 표기법, 어떤 함수의 증가하는 추세를 표현하는 표기법.
+
+ex) 2x^2 + 3x + 5 ⇒ O(x^2)
+
+우선순위는 지수함수...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -29,7 +93,7 @@
     <id>http://localhost:4000/posts/%EC%BD%94%ED%85%8C-%EA%B8%B0%EB%B3%B8%EA%B8%B0-%EB%B3%B5%EC%8A%B5/</id>
     <content src="http://localhost:4000/posts/%EC%BD%94%ED%85%8C-%EA%B8%B0%EB%B3%B8%EA%B8%B0-%EB%B3%B5%EC%8A%B5/" />
     <author>
-      <name>박창준</name>
+      <name>Changjun Park</name>
     </author>
 
   
@@ -74,12 +138,12 @@ public class StandardIO {
     <link href="http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/" rel="alternate" type="text/html" title="깃허브 블로그 시작" />
     <published>2024-03-10T00:00:00+09:00</published>
   
-    <updated>2024-03-10T00:00:00+09:00</updated>
+    <updated>2024-06-16T18:32:18+09:00</updated>
   
     <id>http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/</id>
     <content src="http://localhost:4000/posts/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91/" />
     <author>
-      <name>박창준</name>
+      <name>Changjun Park</name>
     </author>
 
   
