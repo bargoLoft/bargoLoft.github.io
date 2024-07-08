@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>바르고의 다락방</title>
   <subtitle></subtitle>
-  <updated>2024-06-19T23:21:14+09:00</updated>
+  <updated>2024-07-06T21:59:09+09:00</updated>
   <author>
     <name>Changjun Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,19 +20,21 @@
 
   
   <entry>
-    <title>시간복잡도</title>
-    <link href="http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/" rel="alternate" type="text/html" title="시간복잡도" />
-    <published>2024-06-19T00:00:00+09:00</published>
+    <title>알고리즘 스터디 복습 1주차(수학)</title>
+    <link href="http://localhost:4000/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B3%B5%EC%8A%B5-1%EC%A3%BC%EC%B0%A8(%EC%88%98%ED%95%99)/" rel="alternate" type="text/html" title="알고리즘 스터디 복습 1주차(수학)" />
+    <published>2024-07-06T21:57:00+09:00</published>
   
-    <updated>2024-06-19T00:00:00+09:00</updated>
+    <updated>2024-07-06T21:57:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/</id>
-    <content src="http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/" />
+    <id>http://localhost:4000/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B3%B5%EC%8A%B5-1%EC%A3%BC%EC%B0%A8(%EC%88%98%ED%95%99)/</id>
+    <content src="http://localhost:4000/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B3%B5%EC%8A%B5-1%EC%A3%BC%EC%B0%A8(%EC%88%98%ED%95%99)/" />
     <author>
       <name>Changjun Park</name>
     </author>
 
   
+    
+    <category term="코딩테스트" />
     
   
 
@@ -44,8 +46,116 @@
 
 
 
+      번호 : 2609
+
+문제 : 최대공약수와 최대공배수
+
+난이도 : B1
+
+import java.util.Scanner;
+
+public class Main {
+    public static int GCD(int a, int b){
+        if(b==0) return a;
+        else return GCD(b, a%b)
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+
+        int gcd = GCD(n1,n2);
+        int lcm = n1...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>코테 필수 문법 정리</title>
+    <link href="http://localhost:4000/posts/%EC%BD%94%ED%85%8C-%ED%95%84%EC%88%98-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="코테 필수 문법 정리" />
+    <published>2024-07-01T23:56:00+09:00</published>
+  
+    <updated>2024-07-03T23:57:52+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%EC%BD%94%ED%85%8C-%ED%95%84%EC%88%98-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC/</id>
+    <content src="http://localhost:4000/posts/%EC%BD%94%ED%85%8C-%ED%95%84%EC%88%98-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC/" />
+    <author>
+      <name>Changjun Park</name>
+    </author>
+
+  
+    
+    <category term="코딩테스트" />
+    
+  
+
+  
+    <summary>
       
-시간복잡도, time complexity
+
+
+
+
+
+      Primitive / Reference 타입
+
+int, long, float, double … Primitive → 원시 타입
+
+Integer, Long, Float, Double … Reference → 참조 타입
+
+Primitive Type, 원시 타입
+
+
+  실제 값, value 을 직접 저장합니다.
+  스택 메모리에 저장됩니다. 크기가 작고 고정되어 있어 효율적으로 관리 됩니다.
+  기본 타입 종료
+    
+      정수 타입 : byte, short, int, long
+      부동 소수점 타입 : float, double
+      문자 타입 : char
+      논리 타입 : boolean
+    
+  
+  기본값
+    
+      초기화 되지 않은 Primitive 타입 변수는 기...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>시간복잡도</title>
+    <link href="http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/" rel="alternate" type="text/html" title="시간복잡도" />
+    <published>2024-06-19T00:00:00+09:00</published>
+  
+    <updated>2024-07-01T23:56:37+09:00</updated>
+  
+    <id>http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/</id>
+    <content src="http://localhost:4000/posts/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84/" />
+    <author>
+      <name>Changjun Park</name>
+    </author>
+
+  
+    
+    <category term="코딩테스트" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      시간복잡도, time complexity
 
 알고리즘의 성능을 나타내는 지표로, 입력 크기에 대한 연산 횟수의 상한을 의미
 
@@ -76,7 +186,7 @@ Big-O 표기법
 
 ex) 2x^2 + 3x + 5 ⇒ O(x^2)
 
-우선순위는 지수함수...
+우선순위는 지수함수 ...
     </summary>
   
 
